@@ -8,7 +8,7 @@ jdk:
 
 install:
 - mvn clean install -DskipTests -B -V
-- mvn test
+- mvn test cobertura:cobertura coveralls:report
 
 #script:
 #- sh ./tools/check_format.sh

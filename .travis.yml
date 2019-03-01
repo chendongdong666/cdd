@@ -15,4 +15,4 @@ install:
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
-mvn clean test cobertura:cobertura coveralls:report
+- mvn clean test cobertura:cobertura coveralls:report
